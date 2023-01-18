@@ -1,0 +1,50 @@
+[
+  {
+    "english": "He writes",
+    "russian": "Он пишет (иногда, всегда)"
+  },
+  {
+    "english": "I am writing",
+    "russian": "Я пишу (в данный момент)"
+  },
+  {
+    "english": "He has written",
+    "russian": "Он написал (уже, только что)"
+  },
+  {
+    "english": "I have been writing",
+    "russian": "Я пишу (уже два часа с самого обеда)"
+  },
+  {
+    "english": "I wrote",
+    "russian": "Я писал (вчера)"
+  },
+  {
+    "english": "I was writing",
+    "russian": "Я писал (когда он пришел)"
+  },
+  {
+    "english": "I had written",
+    "russian": "Я написал (вчера, до того как он пришел)"
+  },
+  {
+    "english": "I had been writing",
+    "russian": "Я писал (уже час, когда он пришел)"
+  },
+  {
+    "english": "I will write",
+    "russian": "Я напишу (завтра)"
+  },
+  {
+    "english": "I will be writing",
+    "russian": "Я буду писать (завтра в 3 часа, когда ты придешь)"
+  },
+  {
+    "english": "I will have written",
+    "russian": "Я напишу (завтра до того как он придет)"
+  },
+  {
+    "english": "I will have been writing",
+    "russian": "Я буду писать (два года, начиная с завтрашнего дня)"
+  }
+]

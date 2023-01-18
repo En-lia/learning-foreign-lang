@@ -54,7 +54,9 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {},
+    "rules": {
+      "prefer-destructuring": 0
+    },
     "overrides": [
       {
         "files": [

@@ -1,0 +1,50 @@
+[
+  {
+    "english": "Does he write?",
+    "russian": "Он пишет (обычно)?"
+  },
+  {
+    "english": "Are you writing?",
+    "russian": "Ты пишешь (в данный момент)?"
+  },
+  {
+    "english": "How much has he written?",
+    "russian": "Сколько он написал (уже)?"
+  },
+  {
+    "english": "Have they been writing?",
+    "russian": "Они пишут (уже два часа с самого обеда)?"
+  },
+  {
+    "english": "Did I write?",
+    "russian": "Я писал (вчера)?"
+  },
+  {
+    "english": "Were you writing?",
+    "russian": "Ты писал (когда он пришел)?"
+  },
+  {
+    "english": "Had she written?",
+    "russian": "Она написала (вчера, до того как он пришел)?"
+  },
+  {
+    "english": "How long had he been writing?",
+    "russian": "Как давно он писал? (был в процессе написания книги)"
+  },
+  {
+    "english": "Will you write?",
+    "russian": "Ты напишешь (завтра)?"
+  },
+  {
+    "english": "Will you be writing?",
+    "russian": "Ты будешь писать (завтра, когда я приду)?"
+  },
+  {
+    "english": "Will they have written?",
+    "russian": "Они напишут (завтра, до того как он придет)?"
+  },
+  {
+    "english": "Will she have been writing?",
+    "russian": "Она будет писать (год, начиная с завтрашнего дня)?"
+  }
+]

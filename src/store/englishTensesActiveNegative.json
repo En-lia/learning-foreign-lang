@@ -1,0 +1,50 @@
+[
+  {
+    "english": "He doesn't write",
+    "russian": "Он не пишет (никогда)"
+  },
+  {
+    "english": "I'm not writing",
+    "russian": "Я не пишу (в данный момент)"
+  },
+  {
+    "english": "He hasn't written",
+    "russian": "Он не написал (еще)"
+  },
+  {
+    "english": "I haven't been writing",
+    "russian": "Я не пишу (в последнее время)"
+  },
+  {
+    "english": "I didn't write",
+    "russian": "Я не писал (вчера)"
+  },
+  {
+    "english": "They weren't writing",
+    "russian": "Они не писали (когда он пришел)"
+  },
+  {
+    "english": "He hadn't written",
+    "russian": "Он не написал (вчера, до того как он пришел)"
+  },
+  {
+    "english": "I hadn't been writing",
+    "russian": "Я не писал (вчера весь день)"
+  },
+  {
+    "english": "I won't write",
+    "russian": "Я не напишу (завтра)"
+  },
+  {
+    "english": "I won't be writing",
+    "russian": "Я не буду писать (завтра, когда ты придешь)"
+  },
+  {
+    "english": "I won't have written",
+    "russian": "Я не напишу (завтра до того как он придет)"
+  },
+  {
+    "english": "I won't have been writing",
+    "russian": "Я не буду писать (год, начиная с завтрашнего дня)"
+  }
+]
