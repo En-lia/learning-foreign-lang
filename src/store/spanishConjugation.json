@@ -1,0 +1,290 @@
+[
+    {
+     "spanish": "yo tomo",
+     "russian": "я беру"
+    },
+    {
+     "spanish": "tu tomas",
+     "russian": "ты берешь"
+    },
+    {
+     "spanish": "ella toma",
+     "russian": "она берет"
+    },
+    {
+     "spanish": "el toma",
+     "russian": "он берет"
+    },
+    {
+     "spanish": "Usted toma",
+     "russian": "Вы берете (уважительное)"
+    },
+    {
+     "spanish": "nosotros tomamos",
+     "russian": "мы берем (мужчины)"
+    },
+    {
+     "spanish": "nosotras tomamos",
+     "russian": "мы берем (женщины)"
+    },
+    {
+     "spanish": "vosotros tomais",
+     "russian": "вы берете (мужчины)"
+    },
+    {
+     "spanish": "vosotras tomais",
+     "russian": "вы берете (женщины)"
+    },
+    {
+     "spanish": "Ustedes toman",
+     "russian": "Вы берете (множественное уважительное)"
+    },
+    {
+     "spanish": "Ellos toman",
+     "russian": "они берут (мужчины)"
+    },
+    {
+     "spanish": "Ellas toman",
+     "russian": "они берут (женщины)"
+    },
+    {
+     "spanish": "yo como",
+     "russian": "я ем"
+    },
+    {
+     "spanish": "tu comes",
+     "russian": "ты ешь"
+    },
+    {
+     "spanish": "ella come",
+     "russian": "она ест"
+    },
+    {
+     "spanish": "el come",
+     "russian": "он ест"
+    },
+    {
+     "spanish": "Usted come",
+     "russian": "Вы едите (уважительное)"
+    },
+    {
+     "spanish": "nosotros comemos",
+     "russian": "мы едим (мужчины)"
+    },
+    {
+     "spanish": "nosotras comemos",
+     "russian": "мы едим (женщины)"
+    },
+    {
+     "spanish": "vosotros comeis",
+     "russian": "вы едите (мужчины)"
+    },
+    {
+     "spanish": "vosotras comeis",
+     "russian": "вы едите (женщины)"
+    },
+    {
+     "spanish": "Ustedes comen",
+     "russian": "Вы едите (множественное уважительное)"
+    },
+    {
+     "spanish": "Ellos comen",
+     "russian": "они едят (мужчины)"
+    },
+    {
+     "spanish": "Ellas comen",
+     "russian": "они едят (женщины)"
+    },
+    {
+     "spanish": "yo vivo",
+     "russian": "я живу"
+    },
+    {
+     "spanish": "tu vives",
+     "russian": "ты живешь"
+    },
+    {
+     "spanish": "ella vive",
+     "russian": "она живет"
+    },
+    {
+     "spanish": "el vive",
+     "russian": "он живет"
+    },
+    {
+     "spanish": "Usted vive",
+     "russian": "Вы живете (уважительное)"
+    },
+    {
+     "spanish": "nosotros vivimos",
+     "russian": "мы живем (мужчины)"
+    },
+    {
+     "spanish": "nosotras vivimos",
+     "russian": "мы живем (женщины)"
+    },
+    {
+     "spanish": "vosotros vivis",
+     "russian": "вы живете (мужчины)"
+    },
+    {
+     "spanish": "vosotras vivis",
+     "russian": "вы живете (женщины)"
+    },
+    {
+     "spanish": "Ustedes viven",
+     "russian": "Вы живете (множественное уважительное)"
+    },
+    {
+     "spanish": "Ellos viven",
+     "russian": "они живут (мужчины)"
+    },
+    {
+     "spanish": "Ellas viven",
+     "russian": "они живут (женщины)"
+    },
+    {
+     "spanish": "yo vivo",
+     "russian": "я живу"
+    },
+    {
+     "spanish": "tu vives",
+     "russian": "ты живешь"
+    },
+    {
+     "spanish": "ella vive",
+     "russian": "она живет"
+    },
+    {
+     "spanish": "el vive",
+     "russian": "он живет"
+    },
+    {
+     "spanish": "Usted vive",
+     "russian": "Вы живете (уважительное)"
+    },
+    {
+     "spanish": "nosotros vivimos",
+     "russian": "мы живем (мужчины)"
+    },
+    {
+     "spanish": "nosotras vivimos",
+     "russian": "мы живем (женщины)"
+    },
+    {
+     "spanish": "vosotros vivis",
+     "russian": "вы живете (мужчины)"
+    },
+    {
+     "spanish": "vosotras vivis",
+     "russian": "вы живете (женщины)"
+    },
+    {
+     "spanish": "Ustedes viven",
+     "russian": "Вы живете (множественное уважительное)"
+    },
+    {
+     "spanish": "Ellos viven",
+     "russian": "они живут (мужчины)"
+    },
+    {
+     "spanish": "Ellas viven",
+     "russian": "они живут (женщины)"
+    },
+    {
+     "spanish": "yo soy",
+     "russian": "я являюсь (актером)"
+    },
+    {
+     "spanish": "tu eres",
+     "russian": "ты являешься (актером)"
+    },
+    {
+     "spanish": "ella es",
+     "russian": "она является (актрисой)"
+    },
+    {
+     "spanish": "el es",
+     "russian": "он является (актером)"
+    },
+    {
+     "spanish": "Usted es",
+     "russian": "Вы являетесь (актером)"
+    },
+    {
+     "spanish": "nosotros somos",
+     "russian": "мы являемся (актерами)"
+    },
+    {
+     "spanish": "nosotras somos",
+     "russian": "мы являемся (актрисами)"
+    },
+    {
+     "spanish": "vosotros sois",
+     "russian": "вы являетесь (актерами)"
+    },
+    {
+     "spanish": "vosotras sois",
+     "russian": "вы являетесь (актрисами)"
+    },
+    {
+     "spanish": "Ustedes son",
+     "russian": "Вы являетесь (актерами, уважительное)"
+    },
+    {
+     "spanish": "Ellos son",
+     "russian": "они являются (актерами)"
+    },
+    {
+     "spanish": "Ellas son",
+     "russian": "они являются (актрисами)"
+    },
+    {
+     "spanish": "yo estoy",
+     "russian": "я нахожусь (в Барселоне)"
+    },
+    {
+     "spanish": "tu estás",
+     "russian": "ты находишься (в Барселоне)"
+    },
+    {
+     "spanish": "ella está",
+     "russian": "она находится (в Барселоне)"
+    },
+    {
+     "spanish": "el está",
+     "russian": "он находится (в Барселоне)"
+    },
+    {
+     "spanish": "Usted está",
+     "russian": "Вы находитесь (в Барселоне)"
+    },
+    {
+     "spanish": "nosotros estamos",
+     "russian": "мы находимся (в Барселоне, мужчины)"
+    },
+    {
+     "spanish": "nosotras estamos",
+     "russian": "мы находимся (в Барселоне, женщины)"
+    },
+    {
+     "spanish": "vosotros estáis",
+     "russian": "вы находитесь (в Барселоне, мужчины)"
+    },
+    {
+     "spanish": "vosotras estáis",
+     "russian": "вы находитесь (в Барселоне, женщины)"
+    },
+    {
+     "spanish": "Ustedes están",
+     "russian": "Вы находитесь (в Барселоне, уважительное, множественное)"
+    },
+    {
+     "spanish": "Ellos están",
+     "russian": "они находятся (в Барселоне, мужчины)"
+    },
+    {
+     "spanish": "Ellas están",
+     "russian": "они находятся (в Барселоне, женщины)"
+    }
+ ]

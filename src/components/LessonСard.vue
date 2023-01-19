@@ -1,19 +1,39 @@
 <template>
   <div class="lesson-card">
-    <div class="lesson-card__btns">
-      <UIButton
-        style="border-radius: 10px 0 0 0"
-        class="lesson-card__btn"
-        @click="changeLanguage">
-        {{changeLangBtnText}}
-      </UIButton>
-      <UIButton
-        style="border-radius: 0 10px 0 0"
-        class="lesson-card__btn"
-        @click="resetProgress">
-        Сбросить прохождение
-      </UIButton>
+    <div class="lesson-card__header">
+      <div class="lesson-card__lang-btns">
+        <UIButton
+          style="border-radius: 10px 10px 0 0"
+          class="lesson-card__btn"
+          @click="changeLanguage">
+          {{changeLangBtnText}}
+        </UIButton>
+        <UIButton
+          :active="isShowVocabulary"
+          :style="{ flex: 1, 'border-radius': '0 0 0 10px' }"
+          class="lesson-card__btn"
+          @click="changeToVocabulary">
+          Словарь
+        </UIButton>
+        <UIButton
+          :active="!isShowVocabulary"
+          :style="{ flex: 1, 'border-radius': '0 0 10px 0' }"
+          class="lesson-card__btn"
+          @click="changeToGrammar">
+          {{grammarBtnText}}
+        </UIButton>
+      </div>
+
+      <div class="lesson-card__progress-container">
+        <UIButton
+          style="height: 100%"
+          class="lesson-card__btn"
+          @click="resetProgress">
+          Сбросить прохождение
+        </UIButton>
+      </div>
     </div>
+
     <div class="lesson-card__wrapper">
       <div>
         <h3 class="lesson-card__title">{{ cardTitle }}</h3>
@@ -41,6 +61,8 @@
 
 <script>
 import spanishWords from '@/store/spanishWords.json';
+import englishWords from '@/store/englishWords.json';
+import spanishConjugation from '@/store/spanishConjugation.json';
 import englishTensesPositive from '@/store/englishTensesActivePositive.json';
 import englishTensesNegative from '@/store/englishTensesActiveNegative.json';
 import englishTensesQuestion from '@/store/englishTensesActiveQuestion.json';
@@ -51,12 +73,18 @@ const LANGUAGES = {
 };
 
 const LANG_DATA = {
-  english: [
-    ...englishTensesPositive,
-    ...englishTensesNegative,
-    ...englishTensesQuestion,
-  ],
-  spanish: spanishWords,
+  grammar: {
+    english: [
+      ...englishTensesPositive,
+      ...englishTensesNegative,
+      ...englishTensesQuestion,
+    ],
+    spanish: spanishConjugation,
+  },
+  vocabulary: {
+    english: englishWords,
+    spanish: spanishWords,
+  },
 };
 
 export default {
@@ -71,6 +99,7 @@ export default {
       currentPair: {},
       currentLanguage: 'english',
       isShowEmptyMsg: false,
+      isShowVocabulary: true,
       wordsCounter: null,
     };
   },
@@ -96,6 +125,9 @@ export default {
     changeLangBtnText() {
       return `Поменять язык на ${LANGUAGES[this.getOppositeLanguage(this.currentLanguage)]}`;
     },
+    grammarBtnText() {
+      return this.currentLanguage === 'english' ? 'Времена' : 'Спряжения';
+    },
   },
   methods: {
     getOppositeLanguage(lang) {
@@ -119,8 +151,12 @@ export default {
       this.currentPair = this.restWords[randomNum];
       this.restWords.splice(randomNum, 1);
     },
+    getLanguageData(lang) {
+      const type = this.isShowVocabulary ? 'vocabulary' : 'grammar';
+      this.vocabulary = LANG_DATA[type][lang];
+    },
     initCard(lang) {
-      this.vocabulary = LANG_DATA[lang];
+      this.getLanguageData(lang);
       this.createWords();
     },
     createWords() {
@@ -134,6 +170,14 @@ export default {
       const oppositeLang = this.getOppositeLanguage(this.currentLanguage);
       this.initCard(oppositeLang);
       this.currentLanguage = oppositeLang;
+    },
+    changeToVocabulary() {
+      this.isShowVocabulary = true;
+      this.initCard(this.currentLanguage);
+    },
+    changeToGrammar() {
+      this.isShowVocabulary = false;
+      this.initCard(this.currentLanguage);
     },
     resetProgress() {
       this.createWords();
@@ -185,13 +229,26 @@ export default {
     margin-bottom: 5px;
   }
 
-  &__btns {
+  &__header {
     display: flex;
-    justify-content: center;
+  }
+
+  &__lang-btns {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
   }
 
   &__btn {
     width: 100%;
+  }
+
+  &__progress-containe {
+    flex: 1;
+  }
+
+  &__progress-btn.button {
+    height: 100%;
   }
 }
 </style>

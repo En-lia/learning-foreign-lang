@@ -1,5 +1,5 @@
 <template>
-  <button class="button">
+  <button :class="buttonClasses">
     <slot></slot>
   </button>
 </template>
@@ -15,10 +15,26 @@ export default {
   methods: {
 
   },
+  computed: {
+    buttonClasses() {
+      return [
+        {
+          active: this.active,
+          button: true,
+        },
+      ];
+    },
+  },
+  props: {
+    active: {
+      type: Boolean,
+      default: false,
+    },
+  },
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .button {
   padding: 10px 15px;
   border-radius: 10px;
@@ -26,6 +42,10 @@ export default {
   background-color: #426072;
   color: #f9e7b9;
   cursor: pointer;
+
+  &.active {
+    background: #024065;
+  }
 }
 
 </style>
