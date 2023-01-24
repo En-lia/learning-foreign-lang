@@ -45,7 +45,7 @@
    },
    {
      "spanish": "comer",
-     "russian": "есть"
+     "russian": "кушать"
    },
    {
      "spanish": "beber",
@@ -74,5 +74,133 @@
    {
      "spanish": "estar",
      "russian": "быть (в каком-то состоянии), находиться (где-то физически)"
+   },
+   {
+     "spanish": "olvidar",
+     "russian": "забывать"
+   },
+   {
+     "spanish": "escribir",
+     "russian": "писать"
+   },
+   {
+     "spanish": "amar",
+     "russian": "любить"
+   },
+   {
+     "spanish": "comprar",
+     "russian": "покупать"
+   },
+   {
+     "spanish": "comparar",
+     "russian": "сравнивать"
+   },
+   {
+     "spanish": "comprender",
+     "russian": "понимать"
+   },
+   {
+     "spanish": "visitar",
+     "russian": "навещать"
+   },
+   {
+     "spanish": "ir",
+     "russian": "идти"
+   },
+   {
+     "spanish": "tener",
+     "russian": "иметь"
+   },
+   {
+     "spanish": "bien",
+     "russian": "хорошо"
+   },
+   {
+     "spanish": "mal",
+     "russian": "плохо"
+   },
+   {
+     "spanish": "tiempo",
+     "russian": "время"
+   },
+   {
+     "spanish": "familia",
+     "russian": "семья"
+   },
+   {
+     "spanish": "padre",
+     "russian": "отец"
+   },
+   {
+     "spanish": "madre",
+     "russian": "мать"
+   },
+   {
+     "spanish": "hijo",
+     "russian": "сын"
+   },
+   {
+     "spanish": "hija",
+     "russian": "дочь"
+   },
+   {
+     "spanish": "hijos",
+     "russian": "дети"
+   },
+   {
+     "spanish": "hermano",
+     "russian": "брат"
+   },
+   {
+     "spanish": "hermana",
+     "russian": "сестра"
+   },
+   {
+     "spanish": "merido",
+     "russian": "муж"
+   },
+   {
+     "spanish": "mujer",
+     "russian": "жена, женщина"
+   },
+   {
+     "spanish": "hombre",
+     "russian": "мужчина"
+   },
+   {
+     "spanish": "¿Qué?",
+     "russian": "что?, какой?"
+   },
+   {
+     "spanish": "¿Quién?",
+     "russian": "кто?"
+   },
+   {
+     "spanish": "¿Donde?",
+     "russian": "где?"
+   },
+   {
+     "spanish": "¿De Donde?",
+     "russian": "откуда?"
+   },
+   {
+     "spanish": "¿A Donde?",
+     "russian": "куда?"
+   },
+   {
+     "spanish": "¿Cuando?",
+     "russian": "когда?"
+   },
+   {
+     "spanish": "¿Por Qué?",
+     "russian": "почему?"
+   },
+   {
+     "spanish": "¿Como?",
+     "russian": "как?"
+   },
+   {
+     "spanish": "¿Cuanto?",
+     "russian": "сколько?"
    }
  ]
