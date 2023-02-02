@@ -168,6 +168,42 @@
      "russian": "мужчина"
    },
    {
+     "spanish": "grande/pequeño",
+     "russian": "большой/маленький"
+   },
+   {
+     "spanish": "gato(a)",
+     "russian": "кот/кошка"
+   },
+   {
+     "spanish": "perro",
+     "russian": "собака"
+   },
+   {
+     "spanish": "año",
+     "russian": "год"
+   },
+   {
+     "spanish": "ahora",
+     "russian": "сейчас"
+   },
+   {
+     "spanish": "también",
+     "russian": "тоже"
+   },
+   {
+     "spanish": "casi",
+     "russian": "почти"
+   },
+   {
+     "spanish": "todos juntos",
+     "russian": "все вместе"
+   },
+   {
+     "spanish": "todo es posible",
+     "russian": "всё возможно"
+   },
+   {
      "spanish": "¿Qué?",
      "russian": "что?, какой?"
    },
@@ -202,5 +238,174 @@
    {
      "spanish": "¿Cuanto?",
      "russian": "сколько?"
-   }
- ]
+   },
+   {
+     "spanish": "hora",
+     "russian": "час"
+   },
+   {
+     "spanish": "mediodia",
+     "russian": "полдень"
+   },
+   {
+     "spanish": "media",
+     "russian": "половина(девятого)"
+   },
+   {
+     "spanish": "medianoche",
+     "russian": "полночь"
+   },
+   {
+     "spanish": "quarto",
+     "russian": "четверть"
+   },
+   {
+     "spanish": "quarto",
+     "russian": "четверть"
+   },
+   {
+     "spanish": "el amigo/la amiga, los amigos/las amigas",
+     "russian": "определенный друг/подруга, друзья/подруги"
+   },
+   {
+     "spanish": "mi amigo/ mis amigos, tu amigo / tus amigos",
+     "russian": "мой друг/мои друзья, твой друг/твои друзья"
+   },
+   {
+     "spanish": "su amigo/ sus amigos, su amigo/ sus amigos",
+     "russian": "его(ее) друг/его(ее) друзья, их друг/их друзья"
+   },
+   {
+     "spanish": "nuestro(a) amigo / nuestros(as) amigos, vuestro(a) / vuestros(as) amigos",
+     "russian": "наш друг / наши друзья, ваш друг/ваши друзья"
+   },
+  {
+    "spanish": "ayer",
+    "russian": "вчера"
+  },
+  {
+    "spanish": "hoy",
+    "russian": "сегодня"
+  },
+  {
+    "spanish": "mañana",
+    "russian": "завтра"
+  },
+  {
+    "spanish": "primavera",
+    "russian": "весна"
+  },
+  {
+    "spanish": "verano",
+    "russian": "лето"
+  },
+  {
+    "spanish": "otoño",
+    "russian": "осень"
+  },
+  {
+    "spanish": "invierno",
+    "russian": "зима"
+  },
+  {
+    "spanish": "primero, dos, tres",
+    "russian": "первый, второй, третий"
+  },
+  {
+    "spanish": "cumpleaños",
+    "russian": "день рождения"
+  },
+  {
+    "spanish": "después",
+    "russian": "потом"
+  },
+  {
+    "spanish": "hecho",
+    "russian": "сделано (в Испании)"
+  },
+  {
+    "spanish": "semana",
+    "russian": "неделя"
+  },
+  {
+    "spanish": "fin de semana",
+    "russian": "выходные"
+  },
+  {
+    "spanish": "desayuno",
+    "russian": "завтрак"
+  },
+  {
+    "spanish": "mucho(a)(s)/poco(a)(s)",
+    "russian": "много/мало"
+  },
+  {
+    "spanish": "culpa",
+    "russian": "вина"
+  },
+  {
+    "spanish": "desculpar",
+    "russian": "извиняться"
+  },
+  {
+    "spanish": "tener miedo",
+    "russian": "бояться"
+  },
+  {
+    "spanish": "tratar",
+    "russian": "стараться"
+  },
+  {
+    "spanish": "interpretar (un papel)",
+    "russian": "играть (роль)"
+  },
+  {
+    "spanish": "tocar (el guitarra)",
+    "russian": "играть (на гитаре)"
+  },
+  {
+    "spanish": "cumplir",
+    "russian": "исполнять, достигать, свершаться"
+  },
+  {
+    "spanish": "querer",
+    "russian": "хотеть, любить"
+  },
+  {
+    "spanish": "hacer",
+    "russian": "делать"
+  },
+  {
+    "spanish": "pasar (el tiempo)",
+    "russian": "проводить (время), случаться, происходить"
+  },
+  {
+    "spanish": "acompañar",
+    "russian": "провожать, сопровождать"
+  },
+  {
+    "spanish": "desayunar (en un cafe)",
+    "russian": "завтракать (в кафе)"
+  },
+  {
+    "spanish": "ser amigos",
+    "russian": "дружить (быть друзьями)"
+  },
+  {
+    "spanish": "venir",
+    "russian": "приходить, приезжать"
+  },
+  {
+    "spanish": "ver",
+    "russian": "видеть"
+  },
+  {
+    "spanish": "saber",
+    "russian": "знать (что-то наизусть, основательно)"
+  },
+  {
+    "spanish": "conocer",
+    "russian": "знать(кого-то, быть знакомым), иметь общее представление"
+  }
+
+]
